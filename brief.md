@@ -20,7 +20,7 @@ Android apps run in a limited environment to help protect user data. If an app n
 Resource: Request runtime permissions - https://developer.android.com/training/permissions/requesting
 
 ## Networking
-DNS over HTTPS (DoH) helps protect privacy by sending DNS requests through an encrypted HTTPS connection. This makes it harder for others on the local network or an internet provider to see which website names a user looks up. However, DoH does not hide all online activity, and the DNS provider can still see the requests. It may also affect some network filters or parental controls. For a government login service, DoH can improve privacy but is not complete protection.
+DNS over HTTPS (DoH) sends DNS requests through an encrypted HTTPS connection. This makes it harder for people on the same network or an internet provider to see the website names a user looks up. However, the DNS provider can still see these requests, and DoH may affect some network filters or parental controls. It improves privacy, but it does not hide all online activity.
 
 Resource: About DNS over HTTPS - https://support.mozilla.org/en-US/kb/firefox-dns-over-https
 
@@ -30,10 +30,12 @@ Multi-factor authentication (MFA) helps protect accounts by asking users to prov
 Resource: Implementing Phishing-Resistant MFA - https://www.cisa.gov/sites/default/files/2023-01/fact-sheet-implementing-phishing-resistant-mfa-508c.pdf
 
 ## Data
-Oman's Personal Data Protection Law helps protect people's personal information. It requires explicit consent before personal data is processed, with some legal exceptions. The law also requires organisations to protect personal data and delete it when it is no longer needed, unless a legal exception applies. A government login service should follow these rules when collecting and handling users' information.
+Oman's Personal Data Protection Law helps protect people's personal information. It generally requires consent before personal data is processed, although some legal exceptions apply. The law also sets rules for protecting personal data and gives people rights over their information. A government login service should follow the applicable rules when collecting and handling users' personal information.
 
-Resource: Personal Data Protection Law (Consolidated, including Royal Decree 68/2026) - https://decree.om/2022/l20220006/
+Resource: Royal Decree 68/2026 amending the Personal Data Protection Law - https://mtcit.gov.om/ar/3/8/75/1481
 
 ## Misconception in My Track
+A common misconception is that OAuth 2.0 and OpenID Connect do the same thing. They are related, but they have different roles. OAuth 2.0 allows an app to access resources with permission. OpenID Connect helps the app verify who the user is. OAuth 2.0 alone does not provide a standard way to confirm a user's identity. For a government login service, knowing this difference helps developers choose the right tools for sign-in and access control.
 
 ## Open Question
+How can a government login service verify a user's identity while making sure the user can only access the services they are allowed to use?
