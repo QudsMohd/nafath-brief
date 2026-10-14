@@ -18,11 +18,21 @@ Resource: Artificial Intelligence Risk Management Framework (AI RMF) - https://w
 Android apps run in a limited environment to help protect user data. If an app needs access to personal data, it may need to ask the user for permission. The app should only request permissions it really needs and ask at the right time, when the user uses a feature that needs them. It should also explain why the permission is needed and handle the user's choice if they refuse.
 
 Resource: Request runtime permissions - https://developer.android.com/training/permissions/requesting
+
 ## Networking
+DNS over HTTPS (DoH) helps protect privacy by sending DNS requests through an encrypted HTTPS connection. This makes it harder for others on the local network or an internet provider to see which website names a user looks up. However, DoH does not hide all online activity, and the DNS provider can still see the requests. It may also affect some network filters or parental controls. For a government login service, DoH can improve privacy but is not complete protection.
+
+Resource: About DNS over HTTPS - https://support.mozilla.org/en-US/kb/firefox-dns-over-https
 
 ## Cybersecurity
+Multi-factor authentication (MFA) helps protect accounts by asking users to prove their identity in two or more ways. However, not all MFA methods provide the same level of protection. CISA explains that FIDO/WebAuthn is the only widely available phishing-resistant authentication method. It can use a physical security key or a feature built into a phone or computer. For a government login service, phishing-resistant MFA can help protect users from fake websites that try to steal their login details.
+
+Resource: Implementing Phishing-Resistant MFA - https://www.cisa.gov/sites/default/files/2023-01/fact-sheet-implementing-phishing-resistant-mfa-508c.pdf
 
 ## Data
+Oman's Personal Data Protection Law helps protect people's personal information. It requires explicit consent before personal data is processed, with some legal exceptions. The law also requires organisations to protect personal data and delete it when it is no longer needed, unless a legal exception applies. A government login service should follow these rules when collecting and handling users' information.
+
+Resource: Personal Data Protection Law (Consolidated, including Royal Decree 68/2026) - https://decree.om/2022/l20220006/
 
 ## Misconception in My Track
 
