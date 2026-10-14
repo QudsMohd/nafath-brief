@@ -1,0 +1,6 @@
+- 0e35e2f skeleton: NAFATH-V1
+- 696be45 overview: connect the six subtopics
+- 5fe0f40 research: software, ai, mobile
+- 75d0714 research: networking, cybersecurity, data
+- ee7ad06 analysis: misconception and open question
+- 0133b2c revise: overview
